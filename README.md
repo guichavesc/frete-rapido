@@ -74,7 +74,7 @@ This route is responsible to retrieve the carrier and freight options
 
 <br>
 
-**_GET_** / metrics?last_quotes=2
+**_GET_** /quote/metrics?last_quotes=2
 
 ```
 last_quotes is optional - must be a number
