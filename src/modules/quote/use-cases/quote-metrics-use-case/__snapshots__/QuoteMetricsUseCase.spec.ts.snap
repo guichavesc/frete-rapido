@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Metrics Use Case Should return the metrics  1`] = `
+{
+  "metrics": {
+    "cheapestPricePerCarrier": {
+      "createdAt": Any<Date>,
+      "deadline": "5",
+      "name": "Jadlog",
+      "price": 3.5,
+      "service": "Normal",
+    },
+    "expensivePricePerCarrier": {
+      "createdAt": Any<Date>,
+      "deadline": "5",
+      "name": "Braspress",
+      "price": 35,
+      "service": "Normal",
+    },
+    "priceAveragePerCarrier": {
+      "Braspress": 23.75,
+      "Correios": 5.5,
+      "Jadlog": 16.17,
+    },
+    "totalPricePerCarrier": {
+      "Braspress": 47.5,
+      "Correios": 5.5,
+      "Jadlog": 48.5,
+    },
+    "totalQuotes": 6,
+    "totalQuotesPerCarrier": {
+      "Braspress": 2,
+      "Correios": 1,
+      "Jadlog": 3,
+    },
+  },
+}
+`;

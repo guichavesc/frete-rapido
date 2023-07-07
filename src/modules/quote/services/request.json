@@ -1,0 +1,68 @@
+{
+  "shipper": {
+    "registered_number": "25438296000158",
+    "token": "1d52a9b6b78cf07b08586152459a5c90",
+    "platform_code": "5AKVkHqCn"
+  },
+  "recipient": {
+    "type": 0,
+    "registered_number": "09657326907",
+    "state_inscription": "PR",
+    "country": "BRA",
+    "zipcode": 83602780
+  },
+  "dispatchers": [
+    {
+      "registered_number": "25438296000158",
+      "zipcode": 29161376,
+      "total_price": 905,
+      "volumes": [
+        {
+          "amount": 1,
+          "amount_volumes": 0,
+          "category": "7",
+          "sku": "abc-teste-123",
+          "tag": "",
+          "description": "",
+          "height": 0.2,
+          "width": 0.2,
+          "length": 0.2,
+          "unitary_price": 0,
+          "unitary_weight": 5,
+          "consolidate": false,
+          "overlaid": false,
+          "rotate": false
+        },
+        {
+          "amount": 2,
+          "amount_volumes": 0,
+          "category": "7",
+          "sku": "abc-teste-527",
+          "tag": "",
+          "description": "",
+          "height": 0.4,
+          "width": 0.6,
+          "length": 0.15,
+          "unitary_price": 0,
+          "unitary_weight": 4,
+          "consolidate": false,
+          "overlaid": false,
+          "rotate": false
+        }
+      ]
+    }
+  ],
+  "channel": "",
+  "filter": 0,
+  "limit": 0,
+  "identification": "",
+  "reverse": false,
+  "simulation_type": [
+    0
+  ],
+  "returns": {
+    "composition": false,
+    "volumes": false,
+    "applied_rules": false
+  }
+}
