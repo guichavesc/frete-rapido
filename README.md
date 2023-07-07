@@ -112,3 +112,19 @@ last_quotes is optional - must be a number
   }
 }
 ```
+
+## Unit Tests and E2E tests
+
+In order to make the application safe, I tried to follow the TDD methodology, which means the application is testable. And we have two types of tests, the unit tests which are concentrated to the use-case layer, and e2e tests, where the tests go over the general functionality of the application.
+
+> to run unit tests - use the following command:
+
+```bash
+$ yarn test
+```
+
+> to run e2e tests - use the following command:
+
+```bash
+$ yarn test:e2e
+```
